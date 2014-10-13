@@ -1,0 +1,44 @@
+{
+  "name": "project-webclient",
+  "version": "0.0.1",
+  "description": "Medic Grid Africa Web Platform UI",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "MGA",
+    "Web",
+    "Platform",
+    "UI"
+  ],
+  "author": "Dominic Thompson",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "should": "^4.0.4",
+    "mocha": "^1.21.4",
+    "grunt-nodemon": "~0.3.0",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-concurrent": "~1.0.0"
+  },
+  "dependencies": {
+    "express": "~4.9.7",
+    "cookie-parser": "^1.3.3",
+    "morgan": "~1.3.2",
+    "express-session": "~1.8.2",
+    "body-parser": "^1.8.2",
+    "swig": "~1.4.2",
+    "mongoose": "~3.8.17",
+    "lodash": "~2.4.1",
+    "glob": "^4.0.6",
+    "passport-local": "^1.0.0",
+    "passport": "~0.2.1",
+    "nodemailer": "^1.3.0",
+    "async": "^0.9.0",
+    "hr-core": "C:\\Projects\\hr-core"
+  }
+}

@@ -1,0 +1,114 @@
+.content {
+	margin-top: 50px;
+}
+.undecorated-link:hover {
+	text-decoration: none;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.ng-invalid.ng-dirty{
+    border-color:#FA787E;
+}
+.ng-valid.ng-dirty{
+    border-color:#78FA89;
+}
+/*body{*/
+    /*background: url("/modules/core/img/brand/bg.jpg") no-repeat center fixed;*/
+/*}*/
+
+body{
+    /*background-image: -webkit-gradient(*/
+            /*linear,*/
+            /*left top,*/
+            /*left bottom,*/
+            /*color-stop(0, #855D59),*/
+            /*color-stop(1, #A07974)*/
+    /*);*/
+    /*background-image: -o-linear-gradient(bottom, #855D59 0%, #A07974 100%);*/
+    /*background-image: -moz-linear-gradient(bottom, #855D59 0%, #A07974 100%);*/
+    /*background-image: -webkit-linear-gradient(bottom, #855D59 0%, #A07974 100%);*/
+    /*background-image: -ms-linear-gradient(bottom, #855D59 0%, #A07974 100%);*/
+    /*background-image: linear-gradient(to bottom, #855D59 0%, #A07974 100%);*/
+
+    /* IE10 Consumer Preview */
+    /*background-image: -ms-linear-gradient(top left, #8C5901 0%, #523E10 100%);*/
+
+    /* Mozilla Firefox */
+    /*background-image: -moz-linear-gradient(top left, #8C5901 0%, #523E10 100%);*/
+
+    /* Opera */
+    /*background-image: -o-linear-gradient(top left, #8C5901 0%, #523E10 100%);*/
+
+    /* Webkit (Safari/Chrome 10) */
+    /*background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #8C5901), color-stop(1, #523E10));*/
+
+    /* Webkit (Chrome 11+) */
+    /*background-image: -webkit-linear-gradient(top left, #8C5901 0%, #523E10 100%);*/
+
+    /* W3C Markup, IE10 Release Preview */
+    /*background-image: linear-gradient(to bottom right, #8C5901 0%, #523E10 100%);*/
+
+
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #AD6E01 0%, #573701 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #AD6E01 0%, #573701 100%);
+
+    /* Opera */
+    background-image: -o-radial-gradient(center, circle farthest-corner, #AD6E01 0%, #573701 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #AD6E01), color-stop(1, #573701));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #AD6E01 0%, #573701 100%);
+
+    /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(circle farthest-corner at center, #AD6E01 0%, #573701 100%);
+
+    color: #ffffff;
+
+    padding-bottom: 100px;
+}
+
+.jumbotron{
+    background-color: inherit;
+    opacity: .7;
+}
+.default-bg{
+    /*background-color: inherit;*/
+    background-color: rgb(41,93,113);
+    opacity: .9;
+}
+
+
+
+.img-country{
+    height: 75px;
+    width: 100px;
+    padding: 3px 5px 3px 3px;
+}
+
+a > img:hover {
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+
+footer{
+    background-color: #000000;
+    opacity: .8;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    padding-top:20px;
+    margin-right: 50px;
+}
+
+.error{
+    color: #ffff00;
+}
+
