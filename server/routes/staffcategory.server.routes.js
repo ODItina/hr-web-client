@@ -2,7 +2,7 @@
  * Created by KP_TerminalUser2 on 13/10/2014.
  */
 'use strict';
-var rqh = require('./staffcategory.server.rqh');
+var rqh = require('./../requesthandlers/staffcategory/staffcategory.server.rqh.js');
 
 module.exports = function(app){
     app.route('/staffcategory')

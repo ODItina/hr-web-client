@@ -2,7 +2,7 @@
  * Created by KP_TerminalUser2 on 13/10/2014.
  */
 'use strict';
-var rqh = require('./jobrole.server.rqh');
+var rqh = require('./../requesthandlers/jobrole/jobrole.server.rqh.js');
 
 module.exports = function(app){
     app.route('/jobrole')
